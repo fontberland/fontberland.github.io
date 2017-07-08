@@ -1,1 +1,122 @@
-Hello world
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Résidence - Le Fontberland</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Bootstrap Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!--Font Awesome minified-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--JQuery minified JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body id="home_page" data-spy="scroll" data-target=".menu_navbar" data-offset="60">
+
+<!-- Nav bar-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Fontberland</a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu_navbar">
+            <ul class="nav navbar-nav container-fluid">
+                <li class="active"><a href="./index.html">Accueil</a></li>
+                <li><a href="./gallerie.html">Gallerie</a></li>
+                <li><a href="./projet.html">Projet</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="./contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Nav Bar-->
+
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="img/eglise.jpg" class="img-fluid" alt="Image">
+            <div class="carousel-caption">
+                <h3>Histoire du projet</h3>
+                <p>Réalisations et travaux</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="img/place_rouge.jpg" class="img-fluid" alt="Image">
+            <div class="carousel-caption">
+                <h3>Découvrez nos chambres</h3>
+                <p>Consulter les tarifs</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Précédent</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Suivant</span>
+    </a>
+</div>
+<!-- End Carousel -->
+
+<div class="container text-center">
+    <h3>Notre Activité</h3><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="img/chemin_chaux.jpg" class="img-responsive" style="width:100%" alt="Image">
+            <p>Chambres</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <p>Activités</p>
+        </div>
+        <div class="col-sm-4">
+            <div class="well">
+                <p>Restaurée en 2017, Fontberland ...</p>
+            </div>
+            <div class="well">
+                <p>L'accès est simple, suivre Lézigneux...</p>
+            </div>
+        </div>
+    </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+    <p>&copy; 2017 <a href="mailto:gaetan.martin.dev@gmail.com">GM</a></p>
+</footer>
+
+</body>
+</html>
+
