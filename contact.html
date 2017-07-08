@@ -67,7 +67,7 @@
 
 
         <h3>Nous trouver</h3>
-        <div id="map"></div>
+        <div id="map" class="container-fluid img-responsive"></div>
     </div>
 
 
@@ -78,7 +78,7 @@
     function initMap() {
         var uluru = {lat: 45.568581, lng: 4.065942};
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 12,
+            zoom: 20,
             center: uluru
         });
         var marker = new google.maps.Marker({
