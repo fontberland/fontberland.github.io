@@ -91,7 +91,7 @@
 </div>
 <!-- End Carousel -->
 
-<div class="container text-center slideanim">
+<div class="container text-center">
     <h3>Notre Activité</h3><br>
     <div class="row">
         <div class="col-sm-4">
@@ -116,22 +116,6 @@
 <footer class="container-fluid text-center">
     <p>&copy; 2017 <a href="mailto:gaetan.martin.dev@gmail.com">GM</a></p>
 </footer>
-
-<script>
-
-
-    $(window).scroll(function() {
-        $(".slideanim").each(function(){
-            var pos = $(this).offset().top;
-
-            var winTop = $(window).scrollTop();
-            if (pos < winTop + 600) {
-                $(this).addClass("slidea");
-            }
-        });
-    });
-
-</script>
 
 </body>
 </html>
