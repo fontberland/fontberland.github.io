@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Contact - Le Fontberland</title>
+    <title>Appartements - Le Fontberland</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,18 +9,20 @@
     <link rel="shortcut icon" type="image/png" href="img/logo/logo_100_56.png">
 
     <!-- Bootstrap minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Bootstrap Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!--Font Awesome minified-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
-
 </head>
+
 <body>
 
 <!-- Nav bar-->
@@ -39,11 +41,11 @@
             <ul class="nav navbar-nav container-fluid">
                 <li class=""><a href="index.html">Accueil</a></li>
                 <li class=""><a href="cadre.html">Cadre de vie</a></li>
-                <li class=""><a href="appartements.html">Appartements</a></li>
+                <li class="active"><a href="appartements.html">Appartements</a></li>
                 <li class=""><a href="tarifs.html">Tarifs</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+                <li><a href="./contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
             </ul>
         </div>
     </div>
@@ -52,32 +54,23 @@
 
 
 <div class="container first_container">
-
-    <h1>Contact</h1>
+    <h1>Appartements</h1>
     <div class="row well">
-        <p>Pour tous renseignements, vous pouvez nous contacter par téléphone au </p>
+        <p>10 appartements de type T2  sont proposés d’une surface comprise entre 33 et 39 m² ; et un T4 de 60 m². </p>
+        <p>Ces appartements sur 3 niveaux sont différents et accessibles par un escalier et un ascenseur. </p>
+        <br>
+        <p>Ils sont équipés :</p>
         <ul>
-            <li><a href="tel:+33624854440">06 24 85 44 40</a></li>
-            <li><a href="tel:+33675082381">06 75 08 23 81</a></li>
+            <li>d’une Kitchenette dans le séjour,</li>
+            <li>d’une chambre (2 pour le T4),</li>
+            <li>d’une salle de bains adaptée PMR, avec  douche, wc et lavabo,</li>
+            <li>de fenêtres à double vitrage avec volets roulants électriques,</li>
+            <li>de radiateurs et sèche-serviettes,</li>
+            <li>d’un compteur d’électricité personnel avec abonnement,</li>
+            <li>d’un accès internet par la fibre avec abonnement,</li>
+            <li>d’une prise téléphone avec abonnement.</li>
         </ul>
-        <p>ou par mail : <a href="mailto:fontberland@gmail.com">fontberland@gmail.com</a></p>
     </div>
-
-    <h2>Accès</h2>
-    <div class="row">
-        <address>Fontberland, 42600 Lézigneux</address>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-7">
-            <div id="map" class="img-responsive" style="height: 400px; width: 600px;"></div>
-        </div>
-        <!-- <div class="col-sm-1"></div> -->
-        <div class="col-sm-5">
-            <img src="img/contact/plan_de_situation.jpg" class="img-responsive" alt="Plan" title="Plan">
-        </div>
-    </div>
-
 </div>
 
 <footer class="footer">
@@ -85,21 +78,6 @@
         <p>&copy; 2017 <a href="mailto:gaetan.martin.dev@gmail.com">GM</a></p>
     </div>
 </footer>
-
-<script>
-    function initMap() {
-        var uluru = {lat: 45.568581, lng: 4.065942};
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 12,
-            center: uluru
-        });
-        var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
-        });
-    }
-</script>
-
 
 <!--JQuery minified JavaScript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -109,8 +87,5 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEAOgBdh7tUam0LP0NgOxNwSTO6DQM2lg&callback=initMap">
-</script>
 </body>
 </html>

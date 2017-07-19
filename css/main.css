@@ -1,14 +1,45 @@
+p {
+    margin: 2px;
+}
+
+
 /* Menu Navbar */
 .navbar {
     margin-bottom: 0;
-    background-color: #f2f2f2;
     z-index: 9999;
     border-radius: 0;
 }
 
+#nav_logo {
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+body > .first_container {
+    padding: 45px 15px 0;
+}
+
+body {
+    margin-bottom: 45px;
+}
+
 /* Footer */
-footer {
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
     background-color: #f2f2f2;
+
+    border-top: 1px solid #f3f3f3;
     padding: 12px;
 }
 
