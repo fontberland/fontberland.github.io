@@ -1,13 +1,62 @@
+/** ---- Fonts ---- **/
+@font-face {
+    font-family: 'palmerregular';
+    src: url('fonts/palmer-regular-webfont.woff2') format('woff2'),
+    url('fonts/palmer-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** ---- End Fonts ---- **/
+
+
+/** --- General --- **/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 p {
     margin: 2px;
 }
 
 
+.img-circle {
+    margin-bottom: 10px;
+}
+
+/** --- End General --- **/
+
 /* Menu Navbar */
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background: rgb(90, 174, 233);
+    color: ghostwhite;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 9999;
     border-radius: 0;
+    /*background: linear-gradient(-45deg, rgba(12,191,255,1), rgba(30,210,255,1));*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,73d2ef+47,05abe0+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+    background: #f0f9ff; /* Old browsers */
+    background: -moz-linear-gradient(right, #f0f9ff 0%, #cbebff 47%, #a1dbff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(right, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f0f9ff 0%,#cbebff 47%,#a1dbff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+#nav_title {
+    font-family: "palmerregular", serif;
+    font-size: 1.8em;
+    color: rgb(43, 66, 114);
 }
 
 #nav_logo {
@@ -19,11 +68,11 @@ body > .first_container {
     padding: 45px 15px 0;
 }
 
+
+/* Footer */
 body {
     margin-bottom: 45px;
 }
-
-/* Footer */
 
 html {
     position: relative;
@@ -43,6 +92,21 @@ html {
     padding: 12px;
 }
 
+/* End Footer */
+
+/* ---- Vertical align ---- */
+
+.display-table{
+    display: table;
+}
+
+.display-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+
+/* ---- End Vertical align ----*/
 
 /* ---- Animations ---- */
 
