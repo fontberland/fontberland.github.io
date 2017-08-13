@@ -4,4 +4,6 @@ function jumpto(id){
 
 $( document ).ready(function() {
     jumpto("myCarousel");
+
+    $(".carousel").carousel();
 });
