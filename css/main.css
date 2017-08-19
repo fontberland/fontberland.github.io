@@ -21,6 +21,9 @@ p {
     margin: 2px;
 }
 
+h4  {
+    font-weight: 600;
+}
 
 .img-circle {
     margin-bottom: 10px;
