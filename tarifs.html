@@ -63,7 +63,7 @@
                 <li><strong>Location appartement :</strong></li>
                 <p>- Studio : 600€</p>
                 <p>- Petit T2 meublé : 770€</p>
-                <p>- Grand T2 meublé : 810</p>
+                <p>- Grand T2 meublé : 810€</p>
                 <li><strong>Charges :</strong> 210€/mois/personne</li>
                 <p>- Chauffage.</p>
                 <p>- Eau chaude et froide.</p>
@@ -74,30 +74,79 @@
                 <p> avec bibliothèque, télévision, ordinateur avec l’accès internet, jeux de société.</p>
                 <li><strong>Fourniture des petits déjeuners :</strong> 3€ l'un ; soit 90€/mois/personne</li>
                 <li><strong>Fourniture des compléments des repas de midi la semaine </strong> (entrée, fromage et dessert) :</li>
-                <li>4.70€ l'un ; soit 100€/mois/personne (les plats chauds sont préparés par notre traiteur et facturés à chacun).</li>
+                <p>4.70€ l'un ; soit 100€/mois/personne (les plats chauds sont préparés par notre traiteur et facturés à chacun).</p>
                 <li><strong>Entretien du linge personnel</strong> (4 lessives/mois/personne) : 40€/mois/personne.</li>
             </ul>
         </div>
     </div>
 
     <div class="container">
-        <h2>2 Formules</h2>
         <div class="row well">
-            <p><strong>Formule 1 : Location avec services : </strong> Charges comprises +</p>
-            <ul>
-                <li>Entretien du linge personnel.</li>
-                <li>Service des repas de midi les jours de semaines dans la salle à manger (entrée, fromage et dessert préparés sur place).</li>
-                <p>Plats chauds préparés par un traiteur et facturés à chacun.</p>
-            </ul>
-            <p>A partir de 1210€/mois pour une personne ou 1650€/mois pour un couple.</p>
-            
-            <br />
-            
-            <p><strong>Formule 2 : Location avec plus de services : </strong> Charges comprises + contenu n°1 +</p>
-            <ul>
-                <li>Fourniture des repas des soirs et des week-ends, à prendre chez soi.</li>
-            </ul>
-            <p>A partir de 1510€/mois pour une personne ou 2250€/mois pour un couple.</p>
+            <table>
+                {
+                    border-collapse: collapse;
+                }
+                td, th /* Mettre une bordure sur les td ET les th */
+                {
+                    border: 1px solid black;
+                }
+                <tr>
+                    <td>Appartement</td>
+                    <th>Studio</th>
+                    <th>Petit T2</th>
+                    <th>Grand T2</th>
+                </tr>
+
+                <tr>
+                    <td>Location/mois</td>
+                    <td>650€</td>
+                    <td>770€</td>
+                    <td>810€</td>
+                </tr>
+                
+                <tr>
+                    <td>Charges/mois/personne</td>
+                    <td>210€</td>
+                    <td>210€</td>
+                    <td>210€</td>
+                </tr>
+                 
+                <tr>
+                    <td>Petit déjeuners/mois/personne</td>
+                    <td>90€</td>
+                    <td>90€</td>
+                    <td>90€</td>
+                </tr>
+                 
+                <tr>
+                    <td>Complément des repas de midi la semaine/mois/personne</td>
+                    <td>100€</td>
+                    <td>100€</td>
+                    <td>100€</td>
+                </tr>
+                 
+                <tr>
+                    <td>Entretien du linge personnel/4 lessives/mois/personne</td>
+                    <td>40€</td>
+                    <td>40€</td>
+                    <td>40€</td>
+                </tr>
+                 
+                <tr>
+                    <th>Total prestations obligatoires/personne</th>
+                    <th>1090€</th>
+                    <th>1210€</th>
+                    <th>1250€</th>
+                </tr>
+ 
+                <tr>
+                    <th>Total prestations obligatoires pour un couple</th>
+                    <th> </th>
+                    <th>1650€</th>
+                    <th>1690€</th>
+                </tr>
+                
+            </table>
             
         </div>
     </div>
