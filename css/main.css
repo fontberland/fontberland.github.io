@@ -29,13 +29,8 @@ h4  {
     margin-bottom: 10px;
 }
 
-table
-{
-    border-collapse: collapse;
-}
-td, th /* Mettre une bordure sur les td ET les th */
-{
-    border: 1px solid black;
+.table-bordered, .table-bordered>thead>tr>th, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border-color: black;
 }
 
 /** --- End General --- **/
